@@ -1,0 +1,56 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "accessible_mode": true,
+  "buffer_font_family": "Departure Mono",
+  "helix_mode": false,
+  "proxy": "",
+  "autosave": "on_window_change",
+  "cli_default_open_behavior": "existing_window",
+  "disable_ai": true,
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false,
+    "anthropic_retention": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "terminal": {
+    "flexible": true,
+    "show_count_badge": true,
+    "dock": "left",
+    "font_family": "Departure Mono"
+  },
+  "relative_line_numbers": "enabled",
+  "mouse_wheel_zoom": true,
+  "gutter": {
+    "line_numbers": true
+  },
+  "minimap": {
+    "show": "never"
+  },
+  "cursor_blink": true,
+  "wrap_guides": [],
+  "preferred_line_length": 80,
+  "icon_theme": {
+    "mode": "light",
+    "light": "Catppuccin Latte",
+    "dark": "Zed (Default)"
+  },
+  "base_keymap": "VSCode",
+  "ui_font_size": 24.0,
+  "buffer_font_size": 17.0,
+  "theme": {
+    "mode": "light",
+    "light": "macOS Classic Light",
+    "dark": "Gruvbox Dark",
+  },
+}
