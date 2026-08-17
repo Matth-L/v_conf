@@ -7,7 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "accessible_mode": true,
+  "ui_font_family": "Departure Mono",
+  "ui_font_weight": 400.0,
+  "buffer_font_weight": 400.0,
+  "accessible_mode": false,
   "buffer_font_family": "Departure Mono",
   "helix_mode": false,
   "proxy": "",
@@ -46,11 +49,11 @@
     "dark": "Zed (Default)"
   },
   "base_keymap": "VSCode",
-  "ui_font_size": 24.0,
-  "buffer_font_size": 17.0,
+  "ui_font_size": 20.0,
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "light",
-    "light": "macOS Classic Light",
+    "light": "One Light",
     "dark": "Gruvbox Dark",
   },
 }
